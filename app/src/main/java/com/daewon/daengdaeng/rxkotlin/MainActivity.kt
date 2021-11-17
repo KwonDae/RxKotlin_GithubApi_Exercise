@@ -41,8 +41,6 @@ class MainActivity : AppCompatActivity() {
                 println("Error")
             })
 
-
-
 //        try {
 //            val single = Single.just(temp(number= 1))
 //                .subscribe(
