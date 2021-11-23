@@ -35,6 +35,7 @@ class MainActivity : AppCompatActivity() {
 
         Single.just(temp(number=1))
             .subscribeOn(Schedulers.io())
+            .observeOn(AndroidSchedulers.mainThread())
             .subscribe({
                 println("success")
             }, {
